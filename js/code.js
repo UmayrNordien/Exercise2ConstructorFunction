@@ -39,5 +39,47 @@ person1.display();
 person2.display();
 person3.display();
 
+// Solution
+// function PersonDetails(firstName, lastName, 
+//     email) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.email = email;
+
+//     this.getFirstName = ()=> {
+//         return this.firstName
+//     }
+//     this.setFirstName = (value) =>{
+//         this.firstName = value;
+//     }
+//     this.getLastName = ()=> {
+//         return this.lastName
+//     }
+//     this.setLastName = (value) =>{
+//         this.lastName = value;
+//     }
+//     this.getEmail = ()=> {
+//         return this.lastName
+//     }
+//     this.setEmail = (value) =>{
+//         this.email = value;
+//     }    
+    
+//     this.display = ()=> {
+//         return `
+//         Name: ${this.getFirstName()}
+//         Surname: ${this.getLastName()}
+//         Email: ${this.getEmail()}`;
+//     }
+// } 
+// let person1 = new PersonDetails("Peter", "Henk",
+// "peter@gmail.com");
+// console.log(person1.display());
+// console.log("=============");
+// person1.setFirstName("Sarah");
+// person1.setLastName("James");
+// person1.setEmail("sarah@gmail.com");
+// console.log(person1.display());
+
 
 
